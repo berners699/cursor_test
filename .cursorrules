@@ -1,1 +1,97 @@
- 
+
+# 网站开发项目规范配置
+
+每一次会话请求结束后进行会话总结，无论生成新文件还是修改已有文件都需要做总结，
+并将总结内容Append写入到Readme文件中(说明文件中的内容是累积增加的)。
+总结内容应包括：
+   - 会话的主要目的
+   - 完成的主要任务
+   - 关键决策和解决方案
+   - 使用的技术栈
+   - 修改了哪些文件
+
+
+# 忽略的文件和目录
+ignore:
+  - node_modules/
+  - dist/
+  - build/
+  - .git/
+  - __pycache__/
+  - venv/
+  - .env
+  - *.pyc
+  - *.log
+  - .DS_Store
+  - .vscode/
+  - .idea/
+  - coverage/
+  - .nyc_output/
+  - .cache/
+  - temp/
+  - uploads/
+  - logs/
+
+# 代码风格规范
+style:
+  # HTML 规范
+  html:
+    indent: 4
+    quotes: double
+    max_line_length: 120
+    self_closing_tags: true
+    lowercase_attributes: true
+    
+  # CSS 规范
+  css:
+    indent: 4
+    quotes: single
+    max_line_length: 80
+    use_semicolons: true
+    trailing_whitespace: false
+    
+  # JavaScript 规范
+  javascript:
+    indent: 4
+    quotes: single
+    max_line_length: 100
+    semicolons: true
+    trailing_comma: es5
+    arrow_parens: always
+    
+  # TypeScript 规范
+  typescript:
+    indent: 4
+    quotes: single
+    max_line_length: 100
+    semicolons: true
+    trailing_comma: es5
+    arrow_parens: always
+    
+  # JSON 规范
+  json:
+    indent: 2
+    quotes: double
+    trailing_comma: false
+    
+  # Markdown 规范
+  markdown:
+    max_line_length: 80
+    list_indent: 2
+    heading_style: atx
+    
+  # Node.js 规范 (如果使用后端)
+  nodejs:
+    indent: 4
+    quotes: single
+    max_line_length: 100
+    semicolons: true
+    trailing_comma: es5
+    arrow_parens: always
+    
+  # 通用规范
+  general:
+    encoding: utf-8
+    end_of_line: lf
+    insert_final_newline: true
+    trim_trailing_whitespace: true

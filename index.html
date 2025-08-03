@@ -3,162 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>企业官网 - 首页</title>
+    <title>企业官网</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <!-- 导航栏 -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <h2>企业官网</h2>
-            </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link active">首页</a>
-                </li>
-                <li class="nav-item">
-                    <a href="about.html" class="nav-link">企业介绍</a>
-                </li>
-                <li class="nav-item">
-                    <a href="products.html" class="nav-link">产品介绍</a>
-                </li>
-                <li class="nav-item">
-                    <a href="careers.html" class="nav-link">招聘信息</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link">联系我们</a>
-                </li>
-                <li class="nav-item">
-                    <a href="message.html" class="nav-link">留言板</a>
-                </li>
+    <header>
+        <nav>
+            <h1>企业官网</h1>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="products.html">产品介绍</a></li>
+                <li><a href="#services">服务</a></li>
+                <li><a href="#contact">联系我们</a></li>
             </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
-    </nav>
-
-    <!-- 主横幅 -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>欢迎来到我们的企业</h1>
-            <p>专注于创新技术，为客户提供最优质的服务</p>
-            <a href="products.html" class="cta-button">了解更多</a>
-        </div>
-    </section>
-
-    <!-- 关于我们简介 -->
-    <section class="about-preview">
-        <div class="container">
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>欢迎访问我们的企业官网</h2>
+            <p>我们提供专业的企业解决方案</p>
+        </section>
+        
+        <section id="about">
             <h2>关于我们</h2>
-            <div class="about-grid">
-                <div class="about-card">
-                    <i class="fas fa-rocket"></i>
-                    <h3>创新驱动</h3>
-                    <p>持续创新，引领行业发展</p>
-                </div>
-                <div class="about-card">
-                    <i class="fas fa-users"></i>
-                    <h3>团队协作</h3>
-                    <p>专业团队，高效协作</p>
-                </div>
-                <div class="about-card">
-                    <i class="fas fa-award"></i>
-                    <h3>品质保证</h3>
-                    <p>严格把控，品质至上</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 产品展示 -->
-    <section class="products-preview">
-        <div class="container">
-            <h2>我们的产品</h2>
-            <div class="products-grid">
-                <div class="product-card">
-                    <div class="product-image">
-                        <i class="fas fa-laptop"></i>
-                    </div>
-                    <h3>产品一</h3>
-                    <p>创新技术解决方案</p>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <i class="fas fa-mobile-alt"></i>
-                    </div>
-                    <h3>产品二</h3>
-                    <p>移动应用开发</p>
-                </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <i class="fas fa-cloud"></i>
-                    </div>
-                    <h3>产品三</h3>
-                    <p>云服务解决方案</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 统计数据 -->
-    <section class="stats">
-        <div class="container">
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <h3>500+</h3>
-                    <p>服务客户</p>
-                </div>
-                <div class="stat-item">
-                    <h3>50+</h3>
-                    <p>专业团队</p>
-                </div>
-                <div class="stat-item">
-                    <h3>100+</h3>
-                    <p>成功项目</p>
-                </div>
-                <div class="stat-item">
-                    <h3>10+</h3>
-                    <p>行业经验</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 页脚 -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>企业官网</h3>
-                    <p>专注于创新技术，为客户提供最优质的服务</p>
-                </div>
-                <div class="footer-section">
-                    <h3>快速链接</h3>
-                    <ul>
-                        <li><a href="about.html">企业介绍</a></li>
-                        <li><a href="products.html">产品介绍</a></li>
-                        <li><a href="careers.html">招聘信息</a></li>
-                        <li><a href="contact.html">联系我们</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3>联系方式</h3>
-                    <p><i class="fas fa-phone"></i> 400-123-4567</p>
-                    <p><i class="fas fa-envelope"></i> info@company.com</p>
-                    <p><i class="fas fa-map-marker-alt"></i> 北京市朝阳区xxx大厦</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 企业官网. 保留所有权利.</p>
-            </div>
-        </div>
+            <p>我们是一家专注于企业数字化转型的专业团队</p>
+        </section>
+        
+        <section id="services">
+            <h2>我们的服务</h2>
+            <ul>
+                <li>网站开发</li>
+                <li>移动应用</li>
+                <li>云服务</li>
+            </ul>
+        </section>
+        
+        <section id="contact">
+            <h2>联系我们</h2>
+            <p>电话: 400-123-4567</p>
+            <p>邮箱: info@company.com</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 企业官网</p>
     </footer>
-
-    <script src="js/script.js"></script>
+    
+    <script src="js/main.js"></script>
 </body>
 </html>
